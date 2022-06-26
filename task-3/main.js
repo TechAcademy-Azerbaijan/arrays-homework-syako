@@ -15,5 +15,5 @@ prompt.get('input', function (err, result) {
     let arr2 = []
 for(i = 0 ; i < arr.length ; i+=2){
     arr2.push(arr[i])
-}console.log(arr2.join(" "));
+}console.log(arr2);
 });
